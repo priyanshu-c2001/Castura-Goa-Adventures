@@ -1,0 +1,832 @@
+
+/* Default styles for desktop */
+body {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+/* stylying the scroll bar */
+/* For Chrome, Safari, and newer versions of Edge */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #8fbc8f;
+  /* Background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FDE1DC;
+  /* Color of the scrollbar thumb (the draggable part) */
+  border-radius: 10px;
+  /* Rounded corners for the scrollbar thumb */
+  /* border: 3px solid #f1f1f1;  Optional: Space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff3366;
+  /* Color of the thumb when hovered */
+}
+
+
+
+.header-container {
+  position: fixed;
+  justify-content: right;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(51, 51, 51, 0.3);
+  display: flex;
+  gap: 70rem;
+  width: 100%;
+  top: 0;
+  height: 50px;
+  border-bottom: 0.1px solid white;
+  z-index: 1000;
+
+}
+
+.logo {
+  height: 33px;
+}
+
+.nav-items ul {
+  display: flex;
+  list-style-type: none;
+  /* text-decoration: none; */
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+.nav-items ul li {
+  padding: 10px;
+  color: white;
+
+}
+
+.same-a {
+  text-decoration: none;
+}
+
+.nav-items ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+
+.crousel-container {
+  position: relative;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+  opacity: 1;
+}
+
+/***** Customize Navigation Dots *****/
+/* .tns-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .tns-nav button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 5px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tns-nav button.tns-nav-active {
+    background-color: #333; 
+  } */
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1 {
+  position: absolute;
+  top: 140;
+  font-size: 70px;
+  color: #FDE1DC;
+
+
+}
+
+.text p {
+  position: absolute;
+  top: 250;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #FDE1DC;
+
+
+}
+
+.get-st {
+  background-color: #8fbc8f;
+  position: absolute;
+  top: 320;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  height: 40px;
+}
+
+.get-st:hover {
+  background-color: #FDE1DC;
+}
+
+.go-through {
+  margin-top: 20px;
+  background-color: #8fbc8f;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+.go-through marquee h3 {
+  margin: 0px 0px;
+  margin-top: 12px;
+  color: white;
+}
+
+.dest-cards-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 470;
+  list-style-type: none;
+
+}
+
+.dest-cards {
+  width: 230px;
+  height: 150px;
+  margin: 30px;
+  border-radius: 25px;
+  opacity: 0.8;
+
+}
+
+.dest-cards:hover {
+  transform: scale(0.95);
+
+}
+
+.spe-container {
+  display: flex;
+  justify-content: center;
+}
+
+.speciality {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  border-radius: 20px;
+  height: 100px;
+  background-color: #fbd4d1;
+
+}
+
+.special {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.same {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* margin-left: 100px; */
+
+}
+
+.same pre {
+  font-size: 15px;
+}
+
+.border-cont {
+
+  background-color: #f4a460;
+  height: 50px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.border-cont small {
+  margin-top: 10px;
+}
+
+.main-cont {
+  background-color: #f4a460;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.first-col {
+
+  justify-self: right;
+
+}
+
+.first-col h3 {
+  margin: 2.5rem 0 1rem 0;
+  height: 1rem;
+}
+
+.first-col p {
+  margin: 0;
+  width: 15rem;
+  text-align: justify;
+}
+
+
+.second-col {
+  justify-self: center;
+}
+
+.second-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.second-col ul li {
+  color: black;
+  text-decoration: none;
+
+}
+
+.second-col ul li:hover {
+
+  text-decoration: underline;
+
+}
+
+.second-col h3 {
+  margin: 2.5rem 0 1rem 0;
+  height: 1rem;
+}
+
+.third-col {
+  justify-self: left;
+}
+
+.third-col ul {
+  margin: 2.6rem 0 1rem 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.third-col ul li {
+  color: black;
+  text-decoration: none;
+
+}
+
+.third-col ul li:hover {
+
+  text-decoration: underline;
+
+}
+
+.fourth-col {
+  justify-self: left;
+  display: inline;
+}
+
+.fourth-col {
+  justify-self: left;
+}
+
+.fourth-col ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fourth-col h3 {
+  margin: 2.5rem 0 1rem 0;
+  height: 1rem;
+}
+
+.fourth-col small {
+  justify-self: baseline;
+}
+
+.Explore {
+  display: flex;
+  justify-content: center;
+  color: #8fbc8f;
+}
+
+.Cat {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.Cat h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.Cat p {
+  font-size: 1.2em;
+}
+
+
+.img-cards {
+  display: flex;
+  justify-content: center;
+  /* Centering the 'count' div horizontally */
+  align-items: center;
+  /* Centering the 'count' div vertically */
+}
+
+.count {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 70%;
+  gap: 5%;
+}
+
+.img-same {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 8%;
+  align-items: center;
+  /* transition: box-shadow 0.3s ease-in-out; */
+  /* overflow: hidden; */
+  /* Hide any overflowed image part */
+
+}
+
+/* Refined rainbow box shadow on hover */
+
+
+.img-same img {
+  border-radius: 8%;
+  width: 100%;
+  /* Ensures the image width matches the container */
+  height: 100%;
+  /* Ensures the image height matches the container */
+  object-fit: cover;
+  /* Makes sure the image covers the div without stretching */
+}
+
+
+.Contact-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.for-grid {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #8fbc8f;
+  width: 80%;
+  border-radius: 30px;
+  height: 27rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 5%;
+  gap: 2;
+}
+
+.form-cont form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10;
+  width: 80%;
+  height: 12vw;
+}
+
+.form-cont form button {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  margin-right: 73%;
+
+
+}
+
+.form-cont {
+  display: flex;
+  justify-content: right;
+  height: 20rem;
+}
+
+.l-name {
+  padding: 2%;
+  width: 40%;
+  min-height: 15%;
+  background-color: #fbd4d1;
+  border-radius: 10px;
+  border: 0.1px solid #fbd4d1;
+  margin-bottom: 1%;
+
+}
+
+.f-name {
+  padding: 2%;
+  width: 40%;
+  min-height: 15%;
+  background-color: #fbd4d1;
+  border-radius: 10px;
+  border: 0.1px solid #fbd4d1;
+  margin-bottom: 1%;
+
+}
+
+
+.Email {
+  padding: 2%;
+  width: 85.5%;
+  min-height: 15%;
+  background-color: #fbd4d1;
+  border-radius: 10px;
+  border: 0.1px solid #fbd4d1;
+  margin-bottom: 1%;
+}
+
+textarea {
+
+  background-color: #fbd4d1;
+  border-radius: 12px;
+  border: 0.1px solid #fbd4d1;
+  height: 10%;
+  min-height: 70%;
+  min-width: 89%;
+  resize: vertical;
+}
+
+.aside {
+  background-color: #66cdaa;
+  position: relative;
+  bottom: 9rem;
+  padding: 2rem;
+  border-radius: 2rem;
+
+}
+
+
+.aside-img img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.contact-details {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.contact-details li {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  text-align: center;
+
+
+}
+
+.contact-details li h5 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: rgb(74, 70, 70)
+    /* text-align: center; */
+    /* margin-top: 10px; */
+}
+
+.phone-ico {
+  font-size: 25px;
+
+}
+
+.mail-ico {
+  font-size: 25px;
+  /* margin-top: 10px; */
+
+}
+
+.location-ico {
+  font-size: 25px;
+
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 15;
+  margin-top: 10%;
+}
+
+.facebook-ico {
+  font-size: 30px;
+  color: blue;
+}
+
+.instagram-ico {
+  font-size: 30px;
+  color: #E4405F;
+}
+
+.tag-map {
+  text-decoration: none;
+  background-color: #007bffd6;
+  color: white;
+  padding: 2.5%;
+  border-radius: 10px;
+}
+
+
+.why-should {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 8rem;
+}
+
+.lft-container {
+  width: 80%;
+  height: 100%;
+  justify-self: right;
+
+}
+
+.lft-container p {
+  padding-top: 0.5rem;
+  margin: 0;
+  text-align: justify;
+}
+
+.lft-container h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.rgt-container {
+  width: 80%;
+  height: 100%;
+  justify-self: center;
+
+}
+
+.rgt-container img {
+  width: 100%;
+
+  object-fit: cover;
+
+}
+
+.should-details {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  row-gap: 40;
+
+}
+
+.inner-flex {
+  display: flex;
+  gap: 30;
+  flex-wrap: wrap;
+}
+
+.for-img img {
+  width: 70px;
+}
+
+.for-text h4 {
+  margin: 0;
+  text-align: justify;
+}
+
+.for-text p {
+  padding: 0;
+  text-align: justify;
+
+}
+
+.for-text {
+  width: 80%;
+}
+
+.ite-img {
+  width: 100%;
+  height: 50vw;
+
+}
+
+
+.ite-img img {
+  width: 100%;
+  height: 45vw;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.que-container {
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.lft-que {
+  width: 80%;
+  justify-self: right;
+}
+
+.lft-que img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.rgt-que {
+  width: 70%;
+}
+
+.que-mail {
+  background-color: rgb(228, 227, 227);
+  padding: 0.5rem;
+  border: 1px solid whitesmoke;
+  width: 97%;
+  border-radius: 12px;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.que-mail::placeholder {
+  color: black;
+}
+
+.que-textarea {
+  background-color: rgb(228, 227, 227);
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  min-height: 5rem;
+  min-width: 100%;
+  resize: vertical;
+}
+
+.que-textarea::placeholder {
+  color: black;
+  padding: 1rem;
+}
+
+.btn-que {
+  padding: 0.3rem;
+  width: 15%;
+  margin-left: 0.3rem;
+  margin-top: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+}
+
+.btn-que:hover {
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.about-container {
+  margin-top: 8%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.rgt-about {
+  justify-self: left;
+  width: 70%;
+}
+
+.rgt-about p {
+  text-align: justify;
+  font-weight: 510;
+  font-size: large;
+}
+
+.rgt-about h2 {
+  margin-top: 0;
+}
+
+.lft-about {
+  justify-self: center;
+  width: 60%;
+}
+
+.lft-about img {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+}
+
+.dropdown-content {
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  width: 5%;
+  right: 110;
+  border-radius: 0.5rem;
+  background-color: #b2b1b1;
+}
+
+.same-ct {
+  margin: 0;
+  padding: 1;
+  width: 100%;
+  text-align: center;
+  font-size: medium;
+  color: black;
+}
+
+.dropdown-content p:hover {
+  background-color: #66cdaa;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 30rem;
+  border-radius: 4rem;
+  align-items: center;
+  justify-self: center;
+  background-color: grey;
+}
+
+.pkg-container {
+  background-color: black;  /* Match the dark background */
+  padding: 70px;
+  text-align: center;
+}
+
+.pkg-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px; /* Space between images */
+  justify-content: center;
+}
+
+.pkg-img {
+  width: 100%;
+  max-width: 350px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 10px; /* Optional rounded corners */
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2); /* Slight glow */
+}
+

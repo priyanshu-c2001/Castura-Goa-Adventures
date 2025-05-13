@@ -21,11 +21,11 @@ const Contact = ()=>{
              <ul className='contact-details'>
                <li>
                 <ImPhone className='phone-ico'/>
-                <h5>8953594833 , 7275742197</h5>
+                <h5>7275742197</h5>
                </li>
                <li>
                 < BsEnvelopeFill className='mail-ico'/>
-                <h5>aryan.official.00x@gmail.com</h5>
+                <h5>casturatours@gmail.com</h5>
                </li>
                <li>
                 <ImLocation className='location-ico'/>

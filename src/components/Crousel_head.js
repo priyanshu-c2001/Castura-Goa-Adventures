@@ -38,7 +38,7 @@ const Crousel_head = () => {
       <TinySlider settings={settings}>
         {videos.map((img, index) => (
           <div className="crousel-container" key={index}>
-            <video className='carousel-image' autoPlay muted loop>
+            <video className='carousel-image' autoPlay muted loop playsInline>
               <source src={img} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
